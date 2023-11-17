@@ -1,0 +1,21 @@
+@color: red;
+
+.lessBox {
+  .box {
+    display: block;
+    color: @color;
+    background-color: lightblue;
+    transform: translateX(100);
+
+    &:before {
+      @arr: 'hello', 'world';
+      content: ` @{arr}.join(' ') .toUpperCase() `;
+    }
+  }
+}
+
+.smallImg {
+  width: 69px;
+  height: 75px;
+  background: url('@/assets/images/1.png') no-repeat;
+}
