@@ -17,8 +17,7 @@
     "lint:md": "npx markdownlint --config .markdownlint.js --fix .",
     "lint:eslint": "eslint --fix --ext .js,.ts,.tsx ./src --max-warnings=0",
     "pre-check": "tsc && npx lint-staged",
-    "commit": "git pull && git add -A && git-cz && git push",
-    "release": "standard-version"
+    "commit": "git pull && git add -A && git-cz && git push"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
@@ -87,7 +86,6 @@
     "react-refresh": "^0.14.0",
     "sass-loader": "^13.3.2",
     "speed-measure-webpack-plugin": "^1.5.0",
-    "standard-version": "^9.5.0",
     "style-loader": "^3.3.3",
     "stylelint": "^15.11.0",
     "stylelint-config-css-modules": "^4.3.0",

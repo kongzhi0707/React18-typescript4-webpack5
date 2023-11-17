@@ -6,12 +6,6 @@ import stylStyles from './app.styl'
 import img from '@/assets/images/1.png'
 import Class from './components/Class'
 
-function hello(name: string) {
-  return `hello ${name}`
-}
-
-hello(123)
-
 function App() {
   return (
     <div>
